@@ -8,3 +8,4 @@ if __name__ == '__main__':
   for file in glob.glob(sys.argv[1] + '/*.*'):
     if os.path.getsize(file) > 3000000:
       os.remove(file)
+
